@@ -1,10 +1,10 @@
-# CRAFT: A Multi-Agent Framework for Multicultural Text-to-Video Generation
+\title{MAVEN: A Multi-Agent Framework for \\ Multicultural Text-to-Video Generation}
 
-Multi<strong>C</strong>ultu**R**al Multi-**A**gent **F**ramework for **T**ext-to-video Generation
+**M**ulti-**A**gent **V**ideo **E**nrichment for cultural **N**arrative
 
 ## Overview
 
-CRAFT is a multi-agent prompt refinement framework designed to improve the cultural fidelity and inclusivity of text-to-video (T2V) generation systems. With the rapid development of T2V models, there is an increasing need to accurately represent diverse cultures not only in isolation but also when multiple cultural elements are combined within a single prompt.
+MAVEN is a multi-agent prompt refinement framework designed to improve the cultural fidelity and inclusivity of text-to-video (T2V) generation systems. With the rapid development of T2V models, there is an increasing need to accurately represent diverse cultures not only in isolation but also when multiple cultural elements are combined within a single prompt.
 
 This repository contains the implementation and evaluation code for our research on culturally faithful text-to-video generation.
 
@@ -16,9 +16,9 @@ Current T2V models face two main challenges:
 
 ## Approach
 
-![CRAFT Framework Overview](iter_t2v/thesis/figures/main.png)
+![MAVEN Framework Overview](iter_t2v/thesis/figures/main.png)
 
-CRAFT addresses these challenges through a three-step pipeline:
+MAVEN addresses these challenges through a three-step pipeline:
 
 ### Step 1: Mono- and Cross-Cultural Prompt Construction
 - **3 Cultures**: Chinese, Romanian, American
@@ -68,8 +68,8 @@ We construct a comprehensive dataset of **972 videos** covering:
 If you find this work helpful, please cite:
 
 ```bibtex
-@article{craft2025,
-  title={CRAFT: A Multi-Agent Framework for Multicultural Text-to-Video Generation},
+@article{MAVEN2025,
+  title={MAVEN: A Multi-Agent Framework for \\ Multicultural Text-to-Video Generation},
   author={[Shuowei Li, Yuming Zhao, Parth Bhalerao, Oana Ignat]},
   year={2025}
 }
